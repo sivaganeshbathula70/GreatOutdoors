@@ -97,7 +97,7 @@ public class GreatOutdoorsApplicationTests {
 		//Address delete=new Address(1, null, null, null, null, null,null);
 		wishlistService.deleteProduct(1);
 	
-		//assertEquals(true,wishlistService.deleteProduct(1));
+		
 
 	}
 
