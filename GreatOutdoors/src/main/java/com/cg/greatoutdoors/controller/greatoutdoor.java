@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin("http://localhost:4200")
-public class greatUtdrou {
+public class greatoutdoor {
 	@Autowired
 	AddressServiceImpl addressService;
 	@Autowired
@@ -37,7 +37,7 @@ public class greatUtdrou {
       
     	      	   
        
-		return new ResponseEntity<String>("Added screen successfully",HttpStatus.OK);
+		return new ResponseEntity<String>("Added  successfully",HttpStatus.OK);
     	   
        
 	}

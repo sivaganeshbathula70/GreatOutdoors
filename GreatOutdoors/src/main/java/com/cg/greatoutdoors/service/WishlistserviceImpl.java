@@ -40,7 +40,7 @@ public class WishlistserviceImpl  implements WishListService{
 	}
 
 	@Override
-	public List<Whishlist> retrive()  {
+	public List<Whishlist> retrive()  throws AddressNotFoundException {
 		return wishlistu.retrive();
 		
 	}
